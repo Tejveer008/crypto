@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gray-100">
-      <h1 className="text-3xl text-center font-bold py-6">🪙 Crypto Tracker</h1>
+      <h1 className="text-3xl text-center font-bold py-6"><img src='/charts/bit.svg'className="w-12 h-12 inline-block" /> Crypto Tracker</h1>
       <CryptoTable />
     </div>
   );
